@@ -1,0 +1,48 @@
+.s31{
+	width: 1115px;
+	margin: 0px auto;
+}
+.c03{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction:row ;
+}
+.a31{
+	display: flex;
+	margin-left: 400px;
+}
+.a31 a{
+	color:#FFFAE7 ;
+}
+.a31 a:hover{
+	color:black ;
+}
+.s32{
+	    margin-top: 20px;
+
+}
+.b31{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.a30{
+	width: 100%;
+    margin-top: 20px;
+	height:300px;
+	display: flex;
+}
+.b30{
+	height: 100%;
+    width: 70%;
+
+}
+.b32{
+	width: 27%;
+	margin-left: 3%;
+}
+.b32 img,h4 {
+	width: 97%;
+	height: auto;
+	margin: 1.5%;
+}

@@ -1,0 +1,41 @@
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row1{
+  margin-left: 11px;
+  margin-right: -12px;
+}
+
+.text1{
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+.line-1 {
+  height: 1px;
+  background: black;
+}
+
+
+  
+
+
+
+
+

@@ -1,0 +1,296 @@
+/* @charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, arial, sans-serif
+}
+
+body {
+    background: #FFF
+}
+
+#compare_comtainer {
+    width: 1130px;
+    margin: auto;
+    background: 0 0;
+    overflow: hidden
+}
+
+.compare-dropmenu_bar {
+    width: 925px;
+    height: 50px;
+    background: 0 0;
+    padding-top: 20px;
+    padding-left: 205px;
+    flex: 3;
+    display: flex;
+}
+
+label {
+    position: relative
+}
+
+label:after {
+    content: '<>';
+    font: 11px Consolas, monospace;
+    color: #aaa;
+    right: 8px;
+    top: 2px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ddd;
+    position: absolute
+}
+
+.select {
+    width: 320px;
+    height: 30px;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 rgba(0, 143, 229, 1), 0 -1px #fff inset;
+    background: rgba(0, 102, 163, 1);
+    color: #fff;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 30px;
+    padding-left: 25px;
+    font-size: 15px
+}
+
+
+.compare_image_bar {
+    width: 895px;
+    height: 190px;
+    background: 0 0;
+    padding-left: 235px;
+    padding-top: 60px;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.compare_Image_Box {
+    width: 320px;
+    height: 160px;
+    border: 2px solid rgba(0, 102, 163, 1);
+    float: left;
+    text-align: center;
+    background: rgba(0, 142, 227, .1);
+    border-radius: 4px;
+    box-shadow: 0 3px 0 rgba(0, 143, 229, 1), 0 -1px #fff inset
+}
+
+.compare_Image_Box:nth-child(2) {
+    margin-left: 30px
+}
+
+.compare_Image_Box:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%
+}
+
+.compare_Image_Box img {
+    vertical-align: middle;
+    margin-left: -2.5px
+}
+*/
+
+.compare_image_bar {
+    max-width: 1030px;
+    /* margin: auto; */
+    margin-left: 615px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, arial, sans-serif
+}
+
+.compare-dropmenu_bar form{
+    display: flex;
+    padding-top: 20px ;
+    justify-content: center;
+}
+ .input_compare{
+  
+    display: flex;
+    align-items: center;
+ }
+ .input_compare input{
+    padding:  20px 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+ }
+
+
+
+
+.compare_detail_box {
+    width: 1130px;
+    height: 480px;
+    margin: auto;
+    padding-left: 90px;
+}
+
+.Detail_C1 {
+    width: 225px;
+    height: 470px;
+    background: 0 0;
+    float: left;
+    margin-left: 15px;
+    padding-left: 20px
+}
+
+.Detail_C2 {
+    width: 330px;
+    height: 470px;
+    background: 0 0;
+    float: left;
+    margin-left: 5px
+}
+
+.Detail_C3 {
+    width: 324px;
+    height: 470px;
+    background: 0 0;
+    float: left;
+    margin-left: 30px
+}
+
+
+table {
+    border-collapse: separate
+}
+
+td,
+tr {
+    height: 45px
+}
+
+td div {
+    height: 29px;
+    border-radius: 4px;
+    border: 1px solid #FD841F;
+    padding-top: 6px
+}
+
+#table01 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 190px
+}
+
+#table02,
+#table03 {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 324px;
+    text-align: center
+}
+
+#table01 td div {
+    padding-left: 10px
+}
+
+#table01 tr div {
+    background-color: #FFFAE7;
+    color: black;
+}
+
+.BGstyle01 {
+    background-color: #FFFAE7;
+    color: #fff
+}
+.BGstyle01> p {
+    color: black;
+}
+.BGstyle02> p {
+    color:black ;
+}
+.BGstyle02 {
+    background-color:#FFFAE7;
+    color: black
+}
+
+
+
+
+.compare-dropmenu_bar  li {
+    padding: 0 12px;
+    position: relative;
+
+}
+
+.compare-dropmenu_bar  li a:hover {
+    color: red;
+
+}
+
+.compare-dropmenu_bar  li i:hover {
+    color: red;
+
+}
+
+.compare-dropmenu_bar li:hover .sth{
+      background-color: #FFFFFF;
+      visibility: visible;
+      top: 50px;
+
+}
+
+.sth {
+    position: absolute;
+    width: 250px;
+    top: 60px;
+    z-index: 3;
+    border: 1px solid #DDDDDD;
+    padding: 0  0 10px 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.sth:hover li {
+    opacity: 0.2;
+     border-radius: 10px;
+}
+.sth li:hover{
+    transform: scale(1.1);
+    z-index: 10;
+    background: #FFFAE7;
+    box-shadow: 0 5px 25px rgba(0,0,0,.2);
+    color: #fff;
+    opacity: 1;
+}
+.sth li:hover span {
+    background: #fff;
+    color: #FFFAE7;
+}
+
+
+.image1 img{
+    width: 80%;
+    margin-right: 30px;
+  
+}
+.image1{
+    width: 350px;
+ 
+}
+.style-s1{
+    height: 100px;
+}
+.ero{
+    margin-top: 500px;
+} 
+label{
+    font-weight: 600;
+}
+#image2{
+    padding-left: 20px;
+
+}

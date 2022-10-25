@@ -1,0 +1,137 @@
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, san-serif;
+}
+
+header {
+	/* display: flex;
+	justify-content: center; */
+	/* padding:  50px; */
+	height: 300px;
+    /* width: 1000px; */
+	align-items: center;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: #FFFAE7;
+
+}
+.header-above-1{
+    text-align: center;
+    background: #434f53;
+    padding: 15px;
+}
+.header-above{
+    padding-top: 30px ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px ;
+   
+}
+.logo h3{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 950;
+}
+.any{
+    position: relative;
+}
+.any input, .any button{
+    border: none;
+    padding: 20px;
+	background: white;
+    border-radius: 50px ;
+    margin-top: 15px;
+}
+.any button{
+    position: absolute;
+    right: 0px;
+    background-color: #FD841F   ;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    
+}
+ li {
+    list-style-type: none;
+    
+    
+} 
+.menu {
+	flex: 3;
+	display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+
+.menu  li {
+	padding: 0 12px;
+	position: relative;
+    padding: 20px 15px ;
+}
+
+.menu  li a:hover {
+	color: #FD841F;
+
+}
+
+.menu  li i:hover {
+	color: #FD841F  ;
+
+}
+
+.menu li:hover .brand{
+	  background-color: #FFFFFF;
+      visibility: visible;
+      top: 50px;
+
+}
+
+.menu li:hover .type{
+	  background-color: #FFFFFF;
+      visibility: visible;
+      top: 50px;
+
+}
+
+.brand {
+	position: absolute;
+	width: 250px;
+	top: 60px;
+    z-index: 3;
+	border: 1px solid #DDDDDD;
+	padding: 0  0 10px 0;
+	visibility: hidden;
+	transition: 0.1s;
+}
+
+.type {
+	position: absolute;
+	width: 250px;
+	top: 60px;
+	border: 1px solid #DDDDDD;
+	padding: 0  0 10px 0;
+    z-index: 3;
+	visibility: hidden;
+	transition: 0.1s;
+}
+
+.menu li a {
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	line-height: 35px;
+}
+

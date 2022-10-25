@@ -1,0 +1,68 @@
+.btn {
+  background:transparent;
+  text-align:center;
+  letter-spacing:1px;
+  font-size:1.4em;
+  line-height:0.2em;
+  font-weight:300;
+  position:absolute;
+  
+  margin:auto;
+  width:190px;
+  height:20px;
+  padding:20px 0;
+  border:1px solid #363858;
+  overflow:hidden;
+  display:inline-block;
+  transition:all 0.5s;
+  box-shadow:0px 3px 0px #363858;
+  border-radius: 4px;
+}
+
+.btn:hover, .btn:active {
+  text-decoration: none;
+  color:#fff;
+  border-color:#363858;
+  background:#363858;
+  box-shadow:0 0 0 #363858;
+}
+
+.btn-label {
+  display:inline-block;
+  position:relative;
+  padding-right:0;
+  transition:padding-right 0.5s;
+  color:#363858;
+  font-family: 'Exo 2', sans-serif;
+  font-weight:200;
+}
+.btn-label:after {
+  content: "";
+  position:absolute;
+  right:-50px;
+  opacity:0;
+  top:22%;
+  width:7px;
+  height:7px;
+  margin-right:6px;
+  background:rgba(0,0,0,0);
+  border:3px solid #fff;
+  border-top:none;
+  border-right:none;
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform:rotate(225deg);
+}
+
+.btn:hover .btn-label,
+.btn:active .btn-label {
+  padding-right:30px;
+  color:#f5f1e7;
+}
+
+.btn:hover .btn-label:after,
+.btn:active .btn-label:after {
+  transition:opacity: 0.5s, top 0.5s, right 0.5s;
+  opacity:1;
+  right:10px;
+  top:22%;
+}

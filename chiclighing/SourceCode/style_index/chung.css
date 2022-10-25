@@ -1,0 +1,172 @@
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row1{
+  margin-left: 11px;
+  margin-right: -12px;
+}
+
+.text1{
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+.line-1 {
+  height: 1px;
+  background: black;
+}
+.s01{
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 40px;
+}
+.ao1{
+  
+}
+.ao2{
+  margin-left: 3%;
+  width: 27%;
+}
+.left{
+  width: 70%;
+}
+.right{
+  margin-left: 3%;
+  width: 27%;
+}
+
+
+.b01{
+  margin-top: 20px;
+  display: flex;
+  border: solid 1px #FD841F;
+  height: auto;
+}
+.c01{
+    margin-top: 10px;
+
+  width:65% ;
+  height: 300px;
+}
+.c02{
+  margin-top: 10px;
+  margin-left: 2%;
+  width: 33%;
+}
+.d01{
+  background: #FD841F;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+
+}
+.e07{
+  width: 40%;
+  height: 100%;
+}
+.e08{
+  width: 58%;
+  height: 100%;
+  margin-left: 2%;
+}
+.s02{
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 30px;
+
+
+}
+.b02{
+  width: 100%;
+}
+.c03{
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+
+.link{
+  margin-left: 290px;
+  text-decoration: none
+}
+.link-1{
+  margin-left: 790px;
+  text-decoration: none
+}
+.link-2{
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.WELCOME{
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+}
+.WELCOME-1{
+  width: 68%;
+
+}
+.WELCOME-2{
+  width: 35%;
+  margin-left: 7%;
+
+}
+.e04{
+  color: #CD104D;
+}
+.e03{
+  color: #E14D2A;
+}
+.e05{
+  color: #FD841F;
+}
+
+
+.e06> li {
+  margin-top: 30px;
+  color :#FD841F ;
+}
+.e06> li:hover {
+  color:#CD104D ;
+}
+.img-00{
+   height: 120px;
+   width: 120px;
+   border: solid 1px #CD104D;
+   background-color: #FD841F;
+   border-radius: 50%;
+   margin: 10%  33%;
+}
+.img-010{
+     margin: 10%  10%;
+
+}
+
+a{
+  text-decoration: none;
+}
+.view{
+  padding-bottom: 70px;
+}
+

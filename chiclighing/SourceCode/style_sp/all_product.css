@@ -1,0 +1,173 @@
+.img-01{
+  width: 800px;
+  margin: 0px auto;
+}
+.img-11{
+  height: 200px;
+  margin-top: 30px;
+}
+.img-11 > img {
+  width: 100%;
+  height: 100%;
+}
+.tyles{
+  display: flex;
+  height: 40px;
+  color: white;
+  
+}
+.tyle{
+  height: 35px;
+  background: #FD841F;
+}
+  
+.texts{
+  margin: 5px;
+  margin-left: 5px;
+}
+.hinh_binh_hanh{
+  width: 0;
+  height: 0;
+  border-bottom: 35px solid #FD841F;
+  border-right: 44px solid transparent;
+ }
+
+.head1{
+  height: 1px;
+  background: #FD841F;
+  width: 100%;
+}
+.link{
+  margin-left: 290px;
+  text-decoration: none
+}
+.s02{
+  width: 1300px;
+  margin: 0px auto;
+  display: flex;
+
+
+}
+.d04{
+  height: 395px;
+  width:29% ;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+  margin-top: 10px;
+  transition: 0.5s;
+  margin-bottom: 20px;
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+
+}
+.d04:hover{
+  margin-top: 0px;
+  border: solid #CD104D 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+
+  transition: 0.5s;
+}
+.b11{
+      width: 68%;
+      margin-left: 1%;
+
+}
+.c02{
+   width: 24%;
+   margin-left: 2%;
+   margin-right: 1%;
+}
+.e01{
+  width: 100%;
+  height: 40px;
+  background-color: #FD841F;
+  color: white;
+  margin: 0px auto;
+}
+.e01 .text{
+  padding: 10px;
+
+}
+.e02{
+  width: 100%;
+  height: 30px;
+  border-bottom:dashed #FD841F 1px;
+    transition: 0.5s;
+
+}
+.e02 > p {
+  margin: 10px;
+    color: #FD841F;
+    display: flex;
+
+}
+.e02> p > svg {
+  display: none;
+  width: 30px;
+    transition: 0.5s;
+
+}
+.e02:hover p > svg {
+ display: block;
+  color: #CD104D;
+    transition: 0.5s;
+
+}
+
+.e02:hover  {
+    display: block;
+    border-bottom:solid #FD841F 2px;
+    color: #CD104D;
+      transition: 0.5s;
+
+
+}
+
+
+.e01 > h4 > .text {
+  margin: 10px;
+}
+.e03 > p{
+  margin-left: 40px;
+}
+.e04{
+  border-bottom:solid #FD841F 2px;
+    color: #CD104D;
+    width: 100%;
+  height: 30px;
+}
+.e04 > p {
+  margin: 10px;
+}
+.page {
+  display: flex;
+}
+.page-s{
+  padding-left: 955px;
+  padding-bottom: 30px;
+
+}
+.page-1{
+  border: solid gray 1px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  color:#FD841F ;
+}
+.page-1:hover{
+  background-color: #FD841F;
+  color: white;
+}
+.page-2{
+  width: 60px;
+  line-height: 30px;
+  text-align: center;
+  height: 30px;
+}
+.price-icon{
+  transform: rotate(45deg);
+}
